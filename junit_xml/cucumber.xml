@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="18.981217">
+<testcase classname="Forgot Password" name="Verify Forgot Password functionality" time="10.251513">
+<system-out><![CDATA[Given I navigate to url "https://d3iwznaj5nmwfk.cloudfront.net/#/audit/last".passed
+When I click on login link..................................................passed
+Then I should be navigate to login page.....................................passed
+And I Click on ForgotPassword link..........................................passed
+Then I should be navigate to ForgotPassword page............................passed
+And I enter username or email "swapna.padigala@gmail.com"...................passed
+When I Click on Submit button...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login to PubAudit application" name="Verify login functionality" time="8.729704">
+<system-out><![CDATA[Given I navigate to url "https://d3iwznaj5nmwfk.cloudfront.net/#/audit/last".passed
+When I click on login link..................................................passed
+Then I should be navigate to login page.....................................passed
+When I enter username "stephen".............................................passed
+And I enter password "stephen"..............................................passed
+And I click on login button.................................................passed
+Then I should be logged in successfully.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
